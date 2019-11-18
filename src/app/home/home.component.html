@@ -1,0 +1,25 @@
+
+
+
+
+<table style="background-color: aqua" class="table table-hover">
+  <thead>
+    <tr>
+      <th>Movieid</th>
+      <th>Moviename</th>
+      <th>Director</th>
+      <th>Rating</th>
+      <th>Budget</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let mov1 of mov">
+      <td>{{mov1.Movieid}}</td>
+      <td>{{mov1.Moviename}}</td>
+      <td>{{mov1.Director}}</td>
+      <td>{{mov1.Rating}}</td>
+      <td>{{mov1.Budget}}</td>
+    </tr>
+  </tbody> 
+</table>
+
